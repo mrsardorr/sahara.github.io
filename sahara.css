@@ -1,0 +1,223 @@
+.back {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./background.png) ;
+    left: 0;
+     top: 0;
+    position: fixed;
+    filter: brightness(80%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    display: flex;
+     height: 70px;
+    justify-content: space-between; 
+}
+.menu {
+
+   word-spacing: 30px;
+  display: flex;
+  margin: 30px;
+  margin-right: 100px;
+  
+}
+.p {
+    display: flex;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.men {
+    width: 50px;
+    height: 50px;
+    transform: scale(1);
+    transition: transform 0.3s linear;
+}
+.men:hover {
+    transform: rotate(360deg) scale(1.1);
+    transition: transform 0.3s linear;
+}
+.logo {
+    margin-top: 15px;
+    margin-left: 60px;
+    position: relative;
+}
+a{margin: 10px;
+   color: white;
+   text-decoration: none;
+   font-size: large;
+   margin-right: 80px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   transform: scale(1);
+   transition: transform 0.3s linear;
+}
+a:hover{
+   transform: scale(1.1);
+   transition: transform 0.3s linear;
+}
+.lg {
+    height: 90px;
+    width: 90px;
+    transform: scale(1);
+    transition: transform 0.4s linear;
+}
+.lg:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s linear;
+}
+.sahar {
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 760px;
+}
+button {
+    padding: 12px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0px;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+    transition: 0.6s;
+}
+button:hover{
+    box-shadow: 0px 0px 5px 4px dodgerblue;
+    transition: 0.6s;
+    color: white;
+    text-shadow: 1px 1px 5px 4px white;
+}
+
+span {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: dodgerblue;
+    transition: 0.5s;
+    z-index: -3;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+button:hover span{
+    width: 100%;
+}
+ h1 {position: relative;
+     color: white;
+     font-size: 100px;
+ }
+
+p { position: relative;
+    color: white;
+}
+.first {
+
+    position: relative;
+    width: 220px;
+    height: 290px;
+    background-image: url(./pic-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: blur(0.6px) ;
+    margin-left: 220px;
+    transform: translateY(0px);
+    transition: transform 0.3s linear;
+}
+.first:hover {
+    filter: blur(0px);
+    transition: filter 1s linear;
+    transition-duration: 1s;
+    transform: translateY(-10px);
+    transition: transform 0.3s linear;
+}
+.second:hover {
+    filter: blur(0px);
+    transform: translateY(-10px);
+    transition: transform 0.3s linear;
+}
+.third:hover {
+    filter: blur(0px);
+    transform: translateY(-10px);
+    transition: transform 0.3s linear;
+}
+.fourth:hover {
+    filter: blur(0px);
+    transform: translateY(-10px);
+    transition: transform 0.3s linear;
+}
+.second {
+    filter: blur(0.6px);
+    width: 220px;
+    height: 290px;
+    background-image: url(./pic-2.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 111px;
+    border-radius: 20px;  margin-left: 30px;
+    transform: translateY(0px);
+    transition: transform 0.3s linear;
+}
+.third { 
+    filter: blur(0.6px);
+    width: 220px;
+    height: 290px;
+    background-image: url(./pic-3.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 20px; margin-left: 30px;
+    margin-left: 220px;
+    transform: translateY(0px);
+    transition: transform 0.3s linear;
+ }
+.fourth {
+    filter: blur(0.6px);
+    width: 220px;
+    height: 290px;
+    background-image: url(./pic-4.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    border-radius: 20px;margin-left: 30px;
+    transform: translateY(0px);
+    transition: transform 0.3s linear;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+.pic {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-left: 49px;
+    position: relative;
+}
+h2 {
+    color: white;
+    margin: 10px;
+}
+h4 {
+    color: white;
+    margin: 0px 10px;
+}
+.neno {
+    width: 100%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    
+    box-shadow: 0 0 40px 5px rgb(251, 255, 0),
+    inset 0 0 20px rgb(238, 255, 0),
+    0 0 160px 20px rgb(251, 255, 0),
+    inset 0 0 20px rgb(217, 255, 0),
+    0 0 360px 20px rgb(255, 251, 0),
+    inset 0 0 20px rgb(255, 251, 0);
+    background: transparent;
+}
